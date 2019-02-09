@@ -8,10 +8,10 @@ $(document).ready(function () {
           e.preventDefault();
     } */
     
-    input.onfocus = function () {
+    $('#name-entry').onfocus = function () {
         window.scrollTo(0, 0);
         document.body.scrollTop = 0;
-    }
+    };
     
     $('#name-entry').focus();
     
