@@ -10,7 +10,7 @@
     font-family: "Futura", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ html {
 
 .speaker-box {
     background: #FCC;
-    height: 85px;
+    height: 100px;
 }
 
 .speaker-box p {

@@ -4,6 +4,15 @@
 $(document).ready(function () {
     "use strict";
     
+/*  document.ontouchmove = function(e){
+          e.preventDefault();
+    } */
+    
+    input.onfocus = function () {
+        window.scrollTo(0, 0);
+        document.body.scrollTop = 0;
+    }
+    
     $('#name-entry').focus();
     
     var newName = "",
